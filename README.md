@@ -19,9 +19,11 @@ graph TD
         I -- Bounce/Failure --> J[Catch SMTP Exception]
     end
 
-    subgraph Monitoring_Layer [Silent Alerts & Phone]
+    subgraph Monitoring_Layer [Silent Alerts & Support]
         G --> K[Alert via Gmail]
         G --> L[Personal Phone]
         J --> M[Silent Forward]
+        M --> N[Business Email Support]
+        N -- Redirects --> L
     end
 ```
