@@ -4,6 +4,7 @@ graph TD
         A[Visit aibizstack.com] --> B{Checkout via Stripe}
         D[Customer Inbox]
         A -- Ask Question --> N
+        D -- Request Return --> N
     end
 
     subgraph Logic_Layer [PHP Webhook Handler]
@@ -16,6 +17,7 @@ graph TD
 
     subgraph Monitoring_Layer [Support & Alerts]
         N[Business Email Support] -- Send Success --> D
+        N -- Process Return --> B
         N -- Silent Forward --> L[Personal Phone]
         E -- Declined/Error --> G[Log Error & Alert]
         G -- Alert --> N
