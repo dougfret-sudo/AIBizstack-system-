@@ -1,5 +1,5 @@
 # AIBizstack-system- 
-mermaid
+'''mermaid
 graph TD
     subgraph Customer_Side [Customer Experience]
         A[Visit aibizstack.com] --> B{Checkout via Stripe}
@@ -25,3 +25,4 @@ graph TD
         G --> L[Personal Phone]
         J --> M[Silent Forward]
     end
+'''
