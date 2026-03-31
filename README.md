@@ -16,7 +16,7 @@ graph TD
     end
 
     subgraph Monitoring_Layer [Support & Alerts]
-        N[Business Email Support] -- Send Success --> D
+        N[Business Email Support] -- Deliver Product Link --> D
         N -- Process Return --> B
         N -- Silent Forward --> L[Personal Phone]
         E -- Declined/Error --> G[Log Error & Alert]
