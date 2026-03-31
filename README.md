@@ -1,6 +1,6 @@
-# AIBizstack-system- 
+```mermaid
 graph TD
-    subgraph Customer_Side [Customer Experience]
+  subgraph Customer_Side [Customer Experience]
         A[Visit aibizstack.com] --> B{Checkout via Stripe}
         B -- Success --> C[Success Inbox]
         B -- Retry --> D[Retry / Support]
@@ -24,3 +24,4 @@ graph TD
         G --> L[Personal Phone]
         J --> M[Silent Forward]
     end
+```
