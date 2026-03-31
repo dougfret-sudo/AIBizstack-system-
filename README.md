@@ -6,24 +6,20 @@ graph TD
         B -- Retry --> D[Retry / Support]
     end
 
-    subgraph Logic_Layer [PHP Webhook Handler]
+ subgraph Logic_Layer [PHP Webhook Handler]
         B --> E[Webhook: Validate Payment]
         E -- Valid --> F[Access Product Files]
         E -- Declined/Error --> G[Log Error & Alert]
         
         F --> H{Check .htaccess}
         H -- Secure --> I[PHPMailer Engine]
-        H -- File Error --> G
         
-        I -- Send Success --> C
-        I -- Bounce/Failure --> J[Catch SMTP Exception]
+        I --> N[Business Email Support]
     end
 
-    subgraph Monitoring_Layer [Silent Alerts & Support]
-        G --> K[Alert via Gmail]
-        G --> L[Personal Phone]
-        J --> M[Silent Forward]
-        M --> N[Business Email Support]
-        N -- Redirects --> L
+    subgraph Monitoring_Layer [Support & Alerts]
+        N -- Send Success --> C[Customer Inbox]
+        N -- Silent Forward --> L[Personal Phone]
+        G -- Alert --> N
     end
 ```
