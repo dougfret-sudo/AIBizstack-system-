@@ -1,4 +1,5 @@
 # AIBizstack-system- 
+mermaid
 graph TD
     subgraph Customer_Side [Customer Experience]
         A[Visit aibizstack.com] --> B{Checkout via Stripe}
@@ -8,10 +9,10 @@ graph TD
 
     subgraph Logic_Layer [PHP Webhook Handler]
         B --> E[Webhook: Validate Payment]
-        E -- Valid --> f[Access Product Files]
+        E -- Valid --> F[Access Product Files]
         E -- Declined/Error --> G[Log Error & Alert]
         
-        f --> H{Check .htaccess}
+        F --> H{Check .htaccess}
         H -- Secure --> I[PHPMailer Engine]
         H -- File Error --> G
         
