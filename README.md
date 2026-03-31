@@ -24,5 +24,5 @@ graph TD
         G --> K[Alert via Gmail]
         G --> L[Personal Phone]
         J --> M[Silent Forward]
-    end
-'''
+    end'''
+
