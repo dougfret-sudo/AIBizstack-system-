@@ -1,0 +1,86 @@
+Htlm with cards 
+
+<div class="custom-ai-section">
+
+  <h1>Smart Automation Solutions for Modern Businesses</h1>
+  <p>At <strong>AiBizStack</strong>, we create tailored AI bots to automate your business, improve customer engagement, and save valuable time.</p>
+
+  <hr>
+
+  <h2>Flexible Chatbot Plans</h2>
+
+  <div class="plan-card">
+    <h3>Basic — Affordable for Startups</h3>
+    <p>Essential automation features for small businesses just getting started with AI.</p>
+    <ul>
+      <li>Custom AI chatbot for common tasks</li>
+      <li>Simple onboarding and setup</li>
+      <li>Ongoing support included</li>
+    </ul>
+  </div>
+
+  <div class="plan-card">
+    <h3>Starter — Ideal for Small Businesses</h3>
+    <p>Automation for scheduling, messaging, and customer service tailored to your workflows.</p>
+    <ul>
+      <li>Custom workflows built to match your business</li>
+      <li>Bot trained on your services or products</li>
+      <li>Assisted onboarding and support</li>
+    </ul>
+  </div>
+
+  <div class="plan-card">
+    <h3>Growth — Built for Scaling Operations</h3>
+    <p>Advanced bots with integrations and multi-channel capability.</p>
+    <ul>
+      <li>Supports multiple platforms</li>
+      <li>CRM and calendar integrations</li>
+      <li>Priority onboarding and support</li>
+    </ul>
+  </div>
+
+  <div class="plan-card">
+    <h3>Pro — Enterprise-Level Automation</h3>
+    <p>Complex workflows and high-volume support for organizations with large-scale needs.</p>
+    <ul>
+      <li>Custom-built AI systems</li>
+      <li>Dynamic data workflows</li>
+      <li>SLA-backed support and white-glove service</li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <h2>Custom AI Products</h2>
+
+  <div class="product-card">
+    <img src="your-image-url-1.jpg" alt="Custom AI Bots">
+    <h3>Custom AI Bots</h3>
+    <p>Fully branded bots built from scratch for your business logic, tone, and tasks — from lead capture to 24/7 chat handling.</p>
+  </div>
+
+  <div class="product-card">
+    <img src="your-image-url-2.jpg" alt="Prompt Packs">
+    <h3>Prompt Packs</h3>
+    <p>Pre-built prompt collections designed to extend your bot’s intelligence across use cases like sales, onboarding, or support.</p>
+  </div>
+
+  <div class="product-card">
+    <img src="your-image-url-3.jpg" alt="Automation Tools">
+    <h3>Automation Tools</h3>
+    <p>AI tools to automate email replies, internal workflows, lead routing, and more — fully integrated with your stack.</p>
+  </div>
+
+  <div class="product-card">
+    <img src="your-image-url-4.jpg" alt="Virtual Assistant Plans">
+    <h3>Virtual Assistant Plans</h3>
+    <p>Your AI assistant handles calls, messages, appointments, and FAQs — trained specifically for your business.</p>
+  </div>
+
+  <hr>
+
+  <h2>Contact Us for a Custom Quote</h2>
+  <p>All pricing is customized based on your needs. To request a quote or explore options:</p>
+  <p><strong>Email:</strong> <a href="mailto:support@aibizstack.com">support@aibizstack.com</a></p>
+
+</div>
