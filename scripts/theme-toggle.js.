@@ -1,0 +1,25 @@
+Java script 
+
+Now, go to Appearance → Customize → Additional Scripts (or if your theme doesn’t have that, go to “Header Footer Code Manager” plugin if you use one), and paste this inside the footer scripts area:
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const toggleBtn = document.createElement("button");
+  toggleBtn.className = "theme-toggle";
+  document.body.appendChild(toggleBtn);
+
+  toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("light-mode");
+    const isLight = document.body.classList.contains("light-mode");
+    localStorage.setItem("site-theme", isLight ? "light" : "dark");
+  });
+
+  // Restore last chosen mode
+  if (localStorage.getItem("site-theme") === "light") {
+    document.body.classList.add("light-mode");
+  }
+});
+</script>
