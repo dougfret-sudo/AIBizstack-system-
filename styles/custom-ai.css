@@ -1,0 +1,101 @@
+New CSS + wrapper 
+
+/* ----- General Layout Spacing ----- */
+.custom-ai-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: inherit;
+  color: #ffffff;
+}
+
+.custom-ai-section h2 {
+  font-size: 1.8rem;
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+  color: #f1f1f1;
+}
+
+.custom-ai-section h3 {
+  font-size: 1.4rem;
+  margin-top: 2em;
+  color: #ffd24d;
+}
+
+.custom-ai-section p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #dddddd;
+}
+
+.custom-ai-section ul {
+  padding-left: 1.2em;
+  margin-bottom: 1em;
+}
+
+.custom-ai-section ul li {
+  margin-bottom: 0.4em;
+  list-style-type: disc;
+}
+
+/* ----- Section Dividers ----- */
+.custom-ai-section hr {
+  border: none;
+  border-top: 1px solid #333333;
+  margin: 3em 0;
+}
+
+/* ----- Plan Card Styling ----- */
+.custom-ai-section .plan-card {
+  background: #1a1a1a;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ----- Call to Action Link ----- */
+.custom-ai-section a {
+  color: #ffd24d;
+  text-decoration: underline;
+}
+
+.custom-ai-section a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* ----- Responsive Adjustments ----- */
+@media screen and (max-width: 600px) {
+  .custom-ai-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .custom-ai-section h3 {
+    font-size: 1.2rem;
+  }
+
+  .custom-ai-section {
+    padding: 20px 15px;
+  }
+}
+
+
+Wrapper 
+
+2.	Update Your HTML Block:
+Add a wrapper div like this around the entire content I gave you:
+
+<div class="custom-ai-section">
+  <!-- paste full HTML content here -->
+</div>
+
+
+To make plan sections stand out even more, you can wrap each plan in:
+
+
+<div class="plan-card">
+  <h3>Starter — Ideal for Small Businesses</h3>
+  <p>...</p>
+</div>
